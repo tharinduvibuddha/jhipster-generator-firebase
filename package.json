@@ -7,11 +7,11 @@
     "jhipster-module",
     "jhipster-5"
   ],
-  "homepage": "https://github.com/hipster-labs/generator-jhipster-spring-cloud-stream",
+  "homepage": "https://github.com/tharinduvibuddha/jhipster-generator-firebase",
   "author": {
     "name": "Tharindu Vibuddha",
     "email": "",
-    "url": "https://twitter.com/pascalgrimaud"
+    "url": "https://xiges.io"
   },
   "files": [
     "generators"
@@ -19,7 +19,7 @@
   "main": "generators/app/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hipster-labs/generator-jhipster-spring-cloud-stream.git"
+    "url": "git+https://github.com/tharinduvibuddha/jhipster-generator-firebase.git"
   },
   "dependencies": {
     "chalk": "2.4.1",
@@ -56,6 +56,6 @@
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/hipster-labs/generator-jhipster-spring-cloud-stream/issues"
+    "url": "https://github.com/tharinduvibuddha/jhipster-generator-firebase/issues"
   }
 }
