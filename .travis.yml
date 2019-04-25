@@ -1,0 +1,19 @@
+os:
+    - linux
+language: node_js
+node_js:
+    - "8.12.0"
+cache:
+    directories:
+        - $HOME/.m2
+        - $HOME/.gradle
+before_install:
+    - npm install -g npm
+    - npm install -g yo
+install:
+    - npm install
+    - npm link
+script:
+    - npm test
+    - cd $HOME
+    - ./mvnw clean test
